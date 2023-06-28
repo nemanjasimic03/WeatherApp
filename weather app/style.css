@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(238, 238, 238, 0.965);
+    font-family: 'Ysabeau Office', sans-serif;
+}
+h1{
+    font-size: 2.2rem;
+  
+}
+h2{
+    font-size: 1.45rem;
+    padding-bottom: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    /* background-color: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    
+    background-image: url(hram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.grad{
+    padding-bottom: 15px;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 500px;
+    height: 400px ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 40px;
+}
+
+.form{
+    padding: 1.3rem;
+    padding-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+form button{
+    outline: none;
+    border: none;
+    font-size:2rem ;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.136);
+    border-radius: 20px;
+    padding: 3px;
+}
+form button img{
+    width: 30px;
+    position: relative;
+    top: 2px;
+}
+form button:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+form i{
+    font-size: 5rem;
+    color: white;
+    width: 50px;
+    
+}
+input{
+   /* border: 3px solid red; */
+   outline: none;
+   color: black;
+   height: 40px;
+   width: 80%;
+   border-radius: 30px;
+   width: 300px;
+   color: white;
+    font-size: 1.3rem;
+   border: none;
+   background-color: rgba(255, 255, 255, 0.136);
+   padding-left: 1.2rem ;
+   
+}
+.info, .main, .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slika{
+    height:80px;
+}
+.details{
+    gap: 8px;
+}
